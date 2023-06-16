@@ -28,7 +28,7 @@ OBS:
 
 - [ ] ```touch .eslintignore .eslintrc.json```
 
-- [ ] ADD ON: .eslintignor
+- [ ] ADD ON: .eslintignore
  ```
 node_modules
 ```
