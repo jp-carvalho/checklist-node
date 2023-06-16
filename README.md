@@ -6,19 +6,25 @@
 - [ ] ```npm init -y```
 
 ### Installing Dependencies
-* Express
-- [ ] ```npm i express@4.17.1 --save-exact```
-* Nodemon
-- [ ] ```npm i nodemon@2.0.15 --save-dev --save-exact```
-* Mocha
-- [ ] ```npm install mocha@8.4.0 chai@4.3.4 --save-dev --save-exact```
-* ChaiHttp
-- [ ] ```npm install chai-http@4.3.0 --save-dev --save-exact```
-* Sinon
-- [ ] ```npm install sinon@11.1.1 --save-dev --save-exact```
+- Express
+- [ ] ```npm i express@4.17.1 -E```
+- Nodemon
+- [ ] ```npm i nodemon@2.0.15 -D -E```
+- Mocha
+- [ ] ```npm install mocha@8.4.0 chai@4.3.4 -D -E```
+- ChaiHttp
+- [ ] ```npm install chai-http@4.3.0 -D -E```
+- Sinon
+- [ ] ```npm install sinon@11.1.1 -D -E```
+      
+```
+OBS:
+-D is the same as --save-dev
+-E is the same as --save-exact
+```
 
 ### Installing and configure linter e git (trybe course use)
-- [ ] ```npm i eslint@6.8.0 eslint-config-trybe-backend@1.0.1 --save-dev --save-exact```
+- [ ] ```npm i eslint@6.8.0 eslint-config-trybe-backend@1.0.1 -D -E```
 
 - [ ] ```touch .eslintignore .eslintrc.json```
 
